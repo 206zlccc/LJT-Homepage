@@ -9,56 +9,91 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Junteng Liu**  
+Email: [jliugi@connect.ust.hk](mailto:jliugi@connect.ust.hk) | GitHub: [Vicent0205](https://github.com/Vicent0205)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+---
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Education
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+### Ph.D. in Computer Science (2024 - Present)
+**Hong Kong University of Science and Technology (HKUST)**  
+*Supervisor: Prof. Junxian He*  
+HKUST NLP Group
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### Bachelor of Engineering (2020 - 2024)
+**Shanghai Jiao Tong University (SJTU)**  
+*Graduated in June 2024*  
+*Received Zhiyuan Honor Scholarship*
+
+---
+
+## Research Experience
+
+### Research Intern (February 2025 - Present)
+**MINIMAX**  
+*Researching LLM Reasoning and Reinforcement Learning*
+
+### Research Intern (June 2024 - September 2024)
+**Tencent WXG**  
+*Advisor: Zifei Shan*  
+*Researching VLM hallucination mitigation*
+
+### Research Intern (June 2023 - December 2023)
+**Shanghai AI Lab**  
+*Advisor: Prof. Yu Cheng*  
+*Researching C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models*
+
+---
+
+## Skills
+
+- **Natural Language Processing**: LLM, NLP, Machine Learning, Transformer, VLM
+- **Deep Learning**: PyTorch, TensorFlow, Hugging Face, PEFT
+- **Programming Languages**: Python, C++, Bash, LaTeX
+- **Research Skills**: Experimental Design, Data Analysis, Paper Writing, Reproducible Research
+
+---
+
+## Languages
+
+- **Chinese**: Native
+- **English**: Professional
+
+---
+
+## Research Interests
+
+- LLM Reasoning and Reinforcement Learning
+- Hallucination in Vision-Language Models (VLM)
+- LLM Truthfulness and Interpretability
+
+---
+
+## Selected Awards
+
+- **Zhiyuan Honor Scholarship** - Shanghai Jiao Tong University
+
+---
+
+## Publications
+
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+
+---
+
+## Talks
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html  %}
+{% endfor %}
+
+---
+
+## Teaching
+
+{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
